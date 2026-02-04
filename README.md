@@ -94,7 +94,7 @@ CUDA 11.0+ (for GPU acceleration)
 
 1. **Clone the repository**
 ```bash
-git clone https://github.com/MostafaAI10/diffusion-mnist.git
+git clone https://github.com/MostafaAI10/NVIDIA-Diffusion-Models-Course.git
 cd diffusion-mnist
 ```
 
@@ -360,7 +360,7 @@ Contributions are welcome! Here's how you can help:
 ### Development Setup
 ```bash
 # Fork and clone the repository
-git clone https://github.com/MostafaAI10/diffusion-mnist.git
+git clone https://github.com/MostafaAI10/NVIDIA-Diffusion-Models-Course.git
 
 # Install development dependencies
 pip install -r requirements-dev.txt
