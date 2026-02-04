@@ -38,7 +38,7 @@ This project implements a **Denoising Diffusion Probabilistic Model (DDPM)** fro
 
 This repository contains **my personal implementation** based on concepts learned from the NVIDIA DLI course. All original course materials, including instructional notebooks, assessment scripts, and proprietary utilities, remain the intellectual property of **NVIDIA Corporation**.
 
-**For access to official course materials, please register at:** https://www.nvidia.com/en-us/training/
+**For access to official course materials, please register at:** https://learn.nvidia.com/courses/course-detail?course_id=course-v1:DLI+S-FX-14+V1
 
 ---
 
