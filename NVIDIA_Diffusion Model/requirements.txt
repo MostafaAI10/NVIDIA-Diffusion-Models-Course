@@ -1,0 +1,62 @@
+# ============================================
+# MNIST Diffusion Model - Requirements
+# ============================================
+# Project: Diffusion Models for MNIST Generation
+# Author: Mostafa Abdelhamed
+# Python: 3.8+
+# ============================================
+
+# ============================================
+# Core Deep Learning Framework
+# ============================================
+torch>=2.0.0              # PyTorch deep learning framework
+torchvision>=0.15.0       # Computer vision utilities and datasets
+
+# ============================================
+# Scientific Computing
+# ============================================
+numpy>=1.24.0             # Numerical computing library
+
+# ============================================
+# Visualization & Image Processing
+# ============================================
+matplotlib>=3.7.0         # Plotting and visualization
+Pillow>=9.5.0             # Image processing library
+
+# ============================================
+# Development & Jupyter
+# ============================================
+jupyter>=1.0.0            # Jupyter notebook server
+ipykernel>=6.22.0         # IPython kernel for Jupyter
+notebook>=6.5.0           # Classic Jupyter notebook interface
+
+# ============================================
+# Utilities
+# ============================================
+tqdm>=4.65.0              # Progress bars for training loops
+einops>=0.6.1
+
+# ============================================
+# Optional: Performance Optimization
+# ============================================
+# Uncomment these for additional features:
+
+# accelerate>=0.20.0      # Hugging Face training optimization
+# tensorboard>=2.13.0     # TensorBoard logging
+# einops>=0.6.1           # Readable tensor operations
+# scipy>=1.10.0           # Scientific computing utilities
+
+# ============================================
+# Optional: Image Quality Metrics
+# ============================================
+# pytorch-fid>=0.3.0      # Fréchet Inception Distance
+# torchmetrics>=0.11.0    # Collection of ML metrics
+
+# ============================================
+# System Requirements
+# ============================================
+# Python: 3.8 or higher
+# CUDA: 11.0+ (for GPU support)
+# RAM: 8GB minimum, 16GB recommended
+# GPU: 4GB VRAM minimum (optional but recommended)
+# ============================================
