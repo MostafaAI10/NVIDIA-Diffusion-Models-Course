@@ -360,7 +360,7 @@ Contributions are welcome! Here's how you can help:
 ### Development Setup
 ```bash
 # Fork and clone the repository
-git clone https://github.com/yourusername/diffusion-mnist.git
+git clone https://github.com/MostafaAI10/diffusion-mnist.git
 
 # Install development dependencies
 pip install -r requirements-dev.txt
