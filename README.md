@@ -196,6 +196,8 @@ samples = generate_samples(model, num_classes=10, guidance_weight=5.0)
 - ✅ Consistent generation across different seeds
 - ✅ Effective classifier-free guidance implementation
 
+![image alt](https://github.com/MostafaAI10/NVIDIA-Diffusion-Models-Course/blob/8e7db9531bb7b957acb2fb95193b245b8509cf8f/Evaluating%20model.png)
+
 ---
 
 ## What I Learned
