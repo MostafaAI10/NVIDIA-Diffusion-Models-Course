@@ -15,26 +15,26 @@
 
 ---
 
-## 📋 Overview
+## Overview
 
 This project implements a **Denoising Diffusion Probabilistic Model (DDPM)** from scratch to generate realistic handwritten digits from the MNIST dataset. The implementation demonstrates the complete diffusion pipeline, including forward noising, reverse denoising, U-Net architecture, and classifier-free guidance.
 
 **This project was completed as part of NVIDIA's Deep Learning Institute certification program.**
 
-### 🎯 Key Achievement
+### Key Achievement
 - ✅ **95%+ classifier accuracy** on generated samples
 - ✅ Successfully trained DDPM model with final loss: **0.033**
 - ✅ Implemented classifier-free guidance for improved sample quality
 
 ---
 
-## 🎓 Course Information
+## Course Information
 
 **Course Title:** Generative AI with Diffusion Models  
 **Provider:** NVIDIA Deep Learning Institute  
-**Official Course:** [NVIDIA DLI Training](https://learn.nvidia.com/courses/course-detail?course_id=course-v1:DLI+S-FX-14+V1)
+**Official Courses:** [NVIDIA DLI Training](https://www.nvidia.com/en-us/training/)
 
-### ⚠️ Important Note on Content
+### Important Note on Content
 
 This repository contains **my personal implementation** based on concepts learned from the NVIDIA DLI course. All original course materials, including instructional notebooks, assessment scripts, and proprietary utilities, remain the intellectual property of **NVIDIA Corporation**.
 
@@ -42,18 +42,18 @@ This repository contains **my personal implementation** based on concepts learne
 
 ---
 
-## ✨ Features
+## Features
 
 ### Core Implementation
-- 🔄 **Forward Diffusion Process** - Progressive noise addition with beta scheduling
-- 🔙 **Reverse Diffusion Process** - Learned denoising through neural network
-- 🏗️ **U-Net Architecture** - Custom implementation with:
+- **Forward Diffusion Process** - Progressive noise addition with beta scheduling
+- **Reverse Diffusion Process** - Learned denoising through neural network
+- **U-Net Architecture** - Custom implementation with:
   - Residual blocks
   - Down/up sampling layers
   - Sinusoidal position embeddings
   - Conditional class embeddings
-- 🎨 **Classifier-Free Guidance** - Improved sample quality through guidance weighting
-- 📊 **Complete Training Pipeline** - End-to-end training and inference
+- **Classifier-Free Guidance** - Improved sample quality through guidance weighting
+- **Complete Training Pipeline** - End-to-end training and inference
 
 ### Technical Details
 - **Timesteps (T):** 150
@@ -66,7 +66,7 @@ This repository contains **my personal implementation** based on concepts learne
 
 ---
 
-## 🚀 Demo
+## Demo
 
 ### Generated Samples
 
@@ -82,7 +82,7 @@ This repository contains **my personal implementation** based on concepts learne
 
 ---
 
-## 🛠️ Installation
+## Installation
 
 ### Prerequisites
 ```bash
@@ -94,7 +94,7 @@ CUDA 11.0+ (for GPU acceleration)
 
 1. **Clone the repository**
 ```bash
-git clone https://github.com/yourusername/diffusion-mnist.git
+git clone https://github.com/MostafaAI10/diffusion-mnist.git
 cd diffusion-mnist
 ```
 
@@ -121,7 +121,7 @@ jupyter>=1.0.0
 
 ---
 
-## 📖 Usage
+## Usage
 
 ### Training the Model
 ```python
@@ -178,7 +178,7 @@ samples = generate_samples(model, num_classes=10, guidance_weight=5.0)
 
 ---
 
-## 📊 Results
+## Results
 
 ### Training Metrics
 
@@ -198,7 +198,7 @@ samples = generate_samples(model, num_classes=10, guidance_weight=5.0)
 
 ---
 
-## 🧠 What I Learned
+## What I Learned
 
 ### Core Concepts Mastered
 
@@ -228,7 +228,7 @@ samples = generate_samples(model, num_classes=10, guidance_weight=5.0)
 
 ---
 
-## 💡 Key Tips & Insights
+## Key Tips & Insights
 
 ### For Future Learners
 
@@ -271,43 +271,7 @@ w = 10.0 → Too constrained
 
 ---
 
-## 📁 Project Structure
-```
-diffusion-mnist/
-│
-├── README.md                          # This file
-├── requirements.txt                   # Python dependencies
-├── LICENSE                            # MIT License
-│
-├── src/
-│   ├── __init__.py
-│   ├── diffusion_model.py            # Core diffusion implementation
-│   ├── unet.py                       # U-Net architecture
-│   ├── train.py                      # Training pipeline
-│   ├── inference.py                  # Generation script
-│   └── utils.py                      # Helper functions
-│
-├── notebooks/
-│   ├── 01_exploration.ipynb          # Data exploration
-│   ├── 02_training.ipynb             # Model training demo
-│   └── 03_inference.ipynb            # Generation examples
-│
-├── checkpoints/
-│   └── diffusion_model.pth           # Trained model weights
-│
-├── results/
-│   ├── generated_samples.png         # Sample outputs
-│   ├── training_curve.png            # Loss visualization
-│   └── diffusion_process.png         # Process visualization
-│
-└── tests/
-    ├── test_diffusion.py             # Unit tests
-    └── test_unet.py                  # Architecture tests
-```
-
----
-
-## 🔬 Technical Deep Dive
+## Technical Deep Dive
 
 ### Forward Diffusion Process
 
@@ -361,7 +325,7 @@ def classifier_free_guidance(noise_pred_cond, noise_pred_uncond, w):
 
 ---
 
-## 📚 Additional Resources
+## Additional Resources
 
 ### Foundational Papers
 - [Denoising Diffusion Probabilistic Models (DDPM)](https://arxiv.org/abs/2006.11239) - Ho et al., 2020
@@ -385,7 +349,7 @@ def classifier_free_guidance(noise_pred_cond, noise_pred_uncond, w):
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! Here's how you can help:
 
@@ -410,7 +374,7 @@ black src/
 
 ---
 
-## 🔮 Future Enhancements
+## Future Enhancements
 
 Potential improvements and extensions:
 
@@ -437,7 +401,7 @@ Potential improvements and extensions:
 
 ---
 
-## 📝 License
+## License
 
 This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
 
@@ -449,7 +413,7 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 
 ---
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 ### Special Thanks
 
@@ -468,13 +432,12 @@ This implementation was built following concepts from:
 
 ---
 
-## 📫 Contact & Connect
+## Contact & Connect
 
-**Author:** [Your Name]  
-**Email:** [your.email@example.com]  
-**LinkedIn:** [Your LinkedIn Profile]  
-**Portfolio:** [Your Portfolio Website]  
-**GitHub:** [@yourusername](https://github.com/yourusername)
+**Author:** [Mostafa Abdelhamed]  
+**Email:** [abdelhamedmostafa190@gmail.com]  
+**LinkedIn:** [www.linkedin.com/in/mostafa-abdelhamed-88a447286] 
+**GitHub:** [@yourusername](https://github.com/MostafaAI10)
 
 ### Let's Connect!
 
@@ -486,15 +449,15 @@ If you found this project helpful or interesting:
 
 ---
 
-## 📊 Project Statistics
+## Project Statistics
 
-![GitHub stars](https://img.shields.io/github/stars/yourusername/diffusion-mnist?style=social)
-![GitHub forks](https://img.shields.io/github/forks/yourusername/diffusion-mnist?style=social)
-![GitHub watchers](https://img.shields.io/github/watchers/yourusername/diffusion-mnist?style=social)
+![GitHub stars](https://img.shields.io/github/stars/MostafaAI10/diffusion-mnist?style=social)
+![GitHub forks](https://img.shields.io/github/forks/MostafaAI10/diffusion-mnist?style=social)
+![GitHub watchers](https://img.shields.io/github/watchers/MostafaAI10/diffusion-mnist?style=social)
 
 ---
 
-## 🎯 Learning Outcomes
+## Learning Outcomes
 
 By completing this project, I gained practical experience in:
 
@@ -528,10 +491,7 @@ By completing this project, I gained practical experience in:
 
 <div align="center">
 
-**⭐ If this project helped you, please consider giving it a star! ⭐**
-
-Made with ❤️ and a lot of ☕
-
+**I would be happy to hear your suggestions for the future improvement**
 *Completed: February 2026*
 
 </div>
