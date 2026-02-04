@@ -434,10 +434,9 @@ This implementation was built following concepts from:
 
 ## Contact & Connect
 
-**Author:** [Mostafa Abdelhamed]  
+**Author:** Mostafa Abdelhamed
 **Email:** [abdelhamedmostafa190@gmail.com]  
 **LinkedIn:** [www.linkedin.com/in/mostafa-abdelhamed-88a447286] 
-**GitHub:** [@yourusername](https://github.com/MostafaAI10)
 
 ### Let's Connect!
 
@@ -451,9 +450,9 @@ If you found this project helpful or interesting:
 
 ## Project Statistics
 
-![GitHub stars](https://img.shields.io/github/stars/MostafaAI10/diffusion-mnist?style=social)
-![GitHub forks](https://img.shields.io/github/forks/MostafaAI10/diffusion-mnist?style=social)
-![GitHub watchers](https://img.shields.io/github/watchers/MostafaAI10/diffusion-mnist?style=social)
+![GitHub stars](https://img.shields.io/github/stars/MostafaAI10/NVIDIA-Diffusion-Models-Course?style=social)
+![GitHub forks](https://img.shields.io/github/forks/MostafaAI10/NVIDIA-Diffusion-Models-Course?style=social)
+![GitHub watchers](https://img.shields.io/github/watchers/MostafaAI10/NVIDIA-Diffusion-Models-Course?style=social)
 
 ---
 
