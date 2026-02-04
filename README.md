@@ -1,4 +1,4 @@
-# MNIST Digit Generation with Diffusion Models
+# MNIST NVIDIA-Diffusion Models
 
 <div align="center">
 
