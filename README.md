@@ -1,5 +1,7 @@
 # MNIST NVIDIA-Diffusion Models
 
+![image alt](https://github.com/MostafaAI10/Gapminder-R-Analysis/blob/f6bf82ab595ff34ae729b49c43e35b252d74724e/Banner.png)
+
 <div align="center">
 
 ![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)
