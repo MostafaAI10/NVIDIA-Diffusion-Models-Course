@@ -1,6 +1,6 @@
 # MNIST NVIDIA-Diffusion Models
 
-![image alt](https://github.com/MostafaAI10/Gapminder-R-Analysis/blob/f6bf82ab595ff34ae729b49c43e35b252d74724e/Banner.png)
+![image alt](https://github.com/MostafaAI10/NVIDIA-Diffusion-Models-Training/blob/9b140e53c220b25ece5c0bb5638bbab4a15fec82/Banner.png)
 
 <div align="center">
 
